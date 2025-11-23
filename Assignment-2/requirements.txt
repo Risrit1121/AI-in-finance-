@@ -1,0 +1,14 @@
+This file lists the exact versions of Python packages needed to run the project.
+Using specific versions ensures that the code is reproducible.
+To install, run: pip install -r requirements.txt
+--- Core Libraries for Numerical Operations and Performance ---
+numpy==1.26.4
+numba==0.59.1
+
+--- Libraries for Data Handling and the AI Model ---
+pandas==2.2.2
+scikit-learn==1.4.2
+lightgbm==4.3.0
+
+--- Library for Plotting and Evidence Generation ---
+matplotlib==3.8.4
